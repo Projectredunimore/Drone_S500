@@ -6,4 +6,5 @@
 ## Flight modes 
 
 **Stabilize:** Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
+    
     -
