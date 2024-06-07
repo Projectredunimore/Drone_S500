@@ -1,7 +1,7 @@
 
 # Drone_S500
 
-# Table of Contents
+## Table of Contents
 
 - [Drone S500 control manual](#drone-s500-control-manual)
 - [Flight modes](#flight-modes)
