@@ -20,7 +20,7 @@
 
 ## Flight modes 
 
-**Stabilize:** Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
+######**Stabilize:** Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
 
 - Control: The pilot directly controls the drone's throttle, pitch, roll, and yaw inputs, and the flight controller assists by automatically leveling the drone to prevent unwanted tilting or rolling.
 - Use Case: Stabilize mode is typically used for manual flying, basic maneuvers, and learning to fly a drone. It's the default mode for many flight controllers and provides a good balance of manual control and stabilization.
