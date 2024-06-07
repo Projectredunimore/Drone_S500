@@ -1,3 +1,16 @@
+# Table of Contents
+
+- [Drone_S500](#drone_s500)
+- [Drone S500 control manual](#drone-s500-control-manual)
+- [Flight modes](#flight-modes)
+  - [Stabilize](#stabilize)
+  - [Altitude](#altitude)
+  - [Position](#position)
+  - [Mission](#mission)
+  - [Manual](#manual)
+- [Notes before flight](#notes-before-flight)
+
+
 # Drone_S500
 ## Drone S500 control manual
 
