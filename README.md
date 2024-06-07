@@ -13,7 +13,7 @@
 # Drone_S500
 ## Drone S500 control manual
 
-**IMPORTANT:Make sure Toggle A and Toggle B (Arming and emergency kill switches respectively) are toggled up before turning on the RC Controller**
+**IMPORTANT: Make sure Toggle A and Toggle B (Arming and emergency kill switches respectively) are toggled up before turning on the RC Controller**
 
 ![Drone control (2)](https://github.com/Projectredunimore/Drone_S500/assets/125361810/ee9e5677-074d-4a08-bf7e-b4beb2a998ca)
 
