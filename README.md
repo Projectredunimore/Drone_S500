@@ -15,7 +15,7 @@
 
 **IMPORTANT: Make sure Toggle A and Toggle B (Arming and emergency kill switches respectively) are toggled up before turning on the RC Controller**
 
-![Drone control](https://github.com/Projectredunimore/Drone_S500/assets/125361810/ee9e5677-074d-4a08-bf7e-b4beb2a998ca)
+![Drone control (2)](https://github.com/Projectredunimore/Drone_S500/assets/125361810/ee9e5677-074d-4a08-bf7e-b4beb2a998ca)
 
 - **Toggle A**: Arming the controller will initialize joystick controls and the drone can now be controlled via the controller.
 - **Toggle B**: Toggling down this toggle will activate "Emergency Kill" which will stop all motors.
@@ -41,4 +41,19 @@ Position Hold mode allows the drone to maintain its current position (latitude a
 - **Use Case**: Ideal for tasks where you need the drone to remain stationary in the air, such as aerial photography, surveying, or any application requiring precise positioning.
 
 ### Mission
-Executes a series of pre-defined waypoints and commands
+Executes a series of pre-defined waypoints and commands uploaded to the drone's flight controller.
+
+- **Control**: The drone follows the mission plan autonomously, including takeoff, waypoint navigation, specific actions (e.g., taking photos), and landing.
+- **Use Case**: Ideal for tasks such as aerial mapping, surveying, inspections, and other applications requiring precise and repeatable flight paths.
+
+### Manual
+Manual mode provides direct control over the drone's movements without any stabilization or assistance from the flight controller.
+
+- **Control**: The pilot directly controls throttle, pitch, roll, and yaw inputs using the transmitter sticks. The drone responds immediately to these inputs without any automated leveling or stabilization.
+- **Use Case**: Manual mode is typically used by experienced pilots for acrobatic flying, precise maneuvers, or situations where full control over the drone's movements is required.
+
+## Notes before flight
+
+- Before arming the drone, make sure that the throttle is all the way down as it will not be armed because it will read that the throttle is too high.
+- Regarding flight modes (specifically altitude and position), the definition given is only an indication as it needs further testing to see how the drone will behave in correspondence with the joystick positions of the controller.
+- For the first flight test, the recommended flight mode is "Stabilize" (Knob 1).
