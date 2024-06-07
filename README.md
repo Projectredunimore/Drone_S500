@@ -7,5 +7,8 @@
 
 **Stabilize:** Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
 
-
-  -Control
+- Item 1
+- Item 2
+- Item 3
+  - Sub Item 1
+  - Sub Item 2
