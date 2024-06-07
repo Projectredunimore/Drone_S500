@@ -20,27 +20,32 @@
 
 ## Flight modes 
 
-#### Stabilize: Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
+#### Stabilize: 
+Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
 
 - Control: The pilot directly controls the drone's throttle, pitch, roll, and yaw inputs, and the flight controller assists by automatically leveling the drone to prevent unwanted tilting or rolling.
 - Use Case: Stabilize mode is typically used for manual flying, basic maneuvers, and learning to fly a drone. It's the default mode for many flight controllers and provides a good balance of manual control and stabilization.
 
-**Altitude:** Altitude mode maintains a constant altitude when the throttle stick is centered. It's useful for tasks where you want the drone to hover at a specific height without constant manual adjustments.
+#### Altitude:
+Altitude mode maintains a constant altitude when the throttle stick is centered. It's useful for tasks where you want the drone to hover at a specific height without constant manual adjustments.
 
 - Control: The drone holds its current altitude when the throttle stick is centered. Moving the throttle stick up or down adjusts the altitude.
 - Use Case: Ideal for scenarios where you need the drone to maintain a fixed altitude, such as aerial photography or surveying.
 
-**Position:** Position Hold mode allows the drone to maintain its current position (latitude and longitude) using GPS and its current altitude using a barometer or GPS.
+#### Position:
+Position Hold mode allows the drone to maintain its current position (latitude and longitude) using GPS and its current altitude using a barometer or GPS.
 
 - Control: When the control sticks are centered, the drone holds its position in both horizontal and vertical axes. If you move the control sticks, the drone will move accordingly but will return to its held position when the sticks return to the center.
 - Use Case: Ideal for tasks where you need the drone to remain stationary in the air, such as aerial photography, surveying, or any application requiring precise positioning.
 
-**Mission:** Executes a series of pre-defined waypoints and commands uploaded to the drone's flight controller.
+#### Mission:
+Executes a series of pre-defined waypoints and commands uploaded to the drone's flight controller.
 
 - Control: The drone follows the mission plan autonomously, including takeoff, waypoint navigation, specific actions (e.g., taking photos), and landing.
 - Use Case: Ideal for tasks such as aerial mapping, surveying, inspections, and other applications requiring precise and repeatable flight paths.
 
-**Manual:** Manual mode provides direct control over the drone's movements without any stabilization or assistance from the flight controller.
+#### Manual:
+Manual mode provides direct control over the drone's movements without any stabilization or assistance from the flight controller.
 
 - Control: The pilot directly controls throttle, pitch, roll, and yaw inputs using the transmitter sticks. The drone responds immediately to these inputs without any automated leveling or stabilization.
 - Use Case: Manual mode is typically used by experienced pilots for acrobatic flying, precise maneuvers, or situations where full control over the drone's movements is required.
