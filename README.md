@@ -3,6 +3,9 @@
 
 ![Drone control](https://github.com/Projectredunimore/Drone_S500/assets/125361810/39cb8d59-2b82-4dd9-9a68-5e05fd69a502)
 
+-   Toggle A: Arming the controller will initialize joystick controls and the drone can now be controlled via the controller.
+-   Toggle B: Toggling down this toggle will activate "Emergency Kill" which will stop all motors.
+
 ## Flight modes 
 
 **Stabilize:** Stabilize mode provides basic stabilization by automatically leveling the drone and maintaining a stable horizontal attitude.
@@ -30,3 +33,8 @@
 - Control: The pilot directly controls throttle, pitch, roll, and yaw inputs using the transmitter sticks. The drone responds immediately to these inputs without any automated leveling or stabilization.
 - Use Case: Manual mode is typically used by experienced pilots for acrobatic flying, precise maneuvers, or situations where full control over the drone's movements is required.
 
+## Notes before flight
+
+- Before arming the drone, make sure that the throttle is all the way down as it will not be armed because it will read that the throttle is too high.
+- Regarding flight modes (specifically altitude and position), the definition given is only an indication as it needs further testing how the drone will behave in correspondence of the joystick positions of the controller.
+- For the first flight test, recommended flight mode is "Stabilized" (Knob 1)
